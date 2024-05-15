@@ -1,0 +1,50 @@
+import React from 'react'
+import './Header.css'
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import SearchIcon from '@mui/icons-material/Search';
+
+const Header = () => {
+  return (
+    <div className='header'>
+    <div className="headerGrey">
+        <div className="greyLeft">
+        <span>About</span>
+        <span>Contact</span>
+        <span>Help</span>
+        <span>FAQs</span>
+        </div>
+
+        <div className="greyRight">
+        <button className='greyBtn' ><span>My Account</span> <span><ArrowDropDownIcon style={{fontSize:'16px'}} /></span></button>
+        <button><span>USD</span> <span><ArrowDropDownIcon style={{fontSize:'16px'}} /></span></button>
+        <button><span>EN</span> <span><ArrowDropDownIcon style={{fontSize:'16px'}} /></span></button>
+        </div>
+    </div>
+
+
+    <div className="logoDiv">
+    <div className="logo">
+    <div className="logoOne">
+        <span>MULTI</span>
+    </div>
+    <div className="logoTwo">
+        <span>SHOP</span>
+    </div>
+    </div>
+
+    <div className="search">
+    <input type="text" placeholder='Search for products' />
+    <span><SearchIcon style={{color:'#ffd333', fontSize:'1.65rem'}} /></span>
+    </div>
+
+    <div className="service">
+    <p style={{color:'#3d464d',margin:'5px'}}>Customer Service</p>
+    <p style={{fontWeight:'600', fontSize:'1.2rem', margin:'0'}} >+012 345 6789</p>
+    </div>
+    </div>
+         
+    </div>
+  )
+}
+
+export default Header

@@ -1,0 +1,76 @@
+
+
+.headerGrey{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    padding: 0.5rem 3rem;
+}
+.greyLeft{
+    display: flex;
+    gap: 1rem;
+    color: #555;
+}
+.greyLeft span:hover{
+    text-decoration: underline;
+}
+.greyRight button{
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    margin: 0 0.5rem;
+}
+.greyRight button:hover{
+    background-color: #cccccc;
+}
+/* 3D464D  */
+/* ffd333  */
+
+.logoDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 3rem;
+}
+.logo{
+    display: flex;
+    width: 15rem;
+    height: 3rem;
+}
+.logoOne{
+    width: 50%;
+    height: 100%;
+    background-color: #3d464d;
+    color: #ffd333;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding:0 5px 5px 5px;
+    
+}
+.logoTwo{
+    width: 50%;
+    height: 100%;
+    background-color: #ffd333;
+    color: #3d464d;
+    font-size: 2.5rem;
+    padding:0 5px 5px 5px;
+    font-weight: 700;
+}
+.search{
+    height: 2.5rem;
+    display: flex;
+    margin-top: 5px;
+}
+.search input{
+    height: 2.5rem;
+    width: 20rem;
+    font-size: 1.15rem;
+    padding: 1px 8px;
+    border: 1px solid #999;
+}
+.search span{
+    height: 1.3rem;
+    width: 2rem;
+    padding: 10px 10px 11px 10px;
+    border: 1px solid #999;
+}
