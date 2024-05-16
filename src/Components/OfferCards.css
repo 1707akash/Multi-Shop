@@ -1,0 +1,35 @@
+
+.offerCards{
+    position: relative;
+    overflow: hidden;
+}
+.offerCards img{
+    width: 100%;
+    filter: grayscale(50%);
+    transition: 0.4s ease-in-out;
+}
+.offerCards img:hover{
+    transform: scale(1.2) skew(-3deg);
+
+}
+.offerTop{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+.offerTop button{
+    border: none;
+    background-color: #ffd333;
+    padding: 10px 16px;
+    color: #3D464D;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.rightDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
