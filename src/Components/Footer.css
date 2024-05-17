@@ -1,0 +1,14 @@
+
+.footer{
+    background-color: #3d464d;
+    color: white;
+    display: flex;
+    padding: 4rem ;
+    margin: 0;
+}
+.footer div{
+    width: 25%;
+}
+li{
+    list-style: none;
+}

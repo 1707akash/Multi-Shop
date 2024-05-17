@@ -83,7 +83,7 @@ const Hero = () => {
             iconData.map((elem)=>(
                 <div className="icons">
                     <span>{elem.iconUrl}</span>
-                    <span style={{fontSize:'1.25rem', fontWeight:'600', paddingLeft:'8px'}}>{elem.textTag}</span>
+                    <span style={{fontSize:'1.25rem', fontWeight:'600', paddingLeft:'8px',color:'#3D464D'}}>{elem.textTag}</span>
                 </div>
             ))
         }

@@ -4,7 +4,7 @@ import './OfferCards.css'
 
 const OfferCards = (props) => {
   return (
-    <div className='offerCards' style={{height:props.height}}>
+    <div className='offerCards' style={{height:props.height , width:props.width}}>
         <img src={props.imgSrc} alt="" />
         <div className='offerTop'>
         <h4>SAVE 20%</h4>
